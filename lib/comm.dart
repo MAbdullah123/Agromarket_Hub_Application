@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_agromarket_hub/brief.dart';
-import 'package:flutter_application_agromarket_hub/hub.dart';
 import 'package:flutter_application_agromarket_hub/proj.dart';
-import 'details.dart'; // Ensure you import the file where Details is defined
+// Ensure you import the file where Details is defined
 
 class comm extends StatefulWidget {
   const comm({super.key});

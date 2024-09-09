@@ -40,7 +40,7 @@ class _ResourceState extends State<Resource> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            SizedBox(height: 20), // Spacing
+            const SizedBox(height: 20), // Spacing
             Container(
               width: double.infinity,
               height: 120,
@@ -58,10 +58,10 @@ class _ResourceState extends State<Resource> {
                       width: 100,
                       height: 190,
                     ),
-                    Column(
+                    const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           'Sugarcane to sale in',
                           style: TextStyle(
@@ -99,10 +99,10 @@ class _ResourceState extends State<Resource> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Center(
+            const Center(
               child: Text("Your Resource",
                   style: TextStyle(
                     color: Colors.orange,
@@ -127,10 +127,10 @@ class _ResourceState extends State<Resource> {
                       width: 100,
                       height: 100,
                     ),
-                    Column(
+                    const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           'Sugarcane to sale in',
                           style: TextStyle(
@@ -168,10 +168,10 @@ class _ResourceState extends State<Resource> {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 60,
             ),
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Text(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_agromarket_hub/Resource.dart';
-import 'package:flutter_application_agromarket_hub/comm.dart';
 import 'package:flutter_application_agromarket_hub/proj.dart';
 
 class chatbot extends StatefulWidget {
